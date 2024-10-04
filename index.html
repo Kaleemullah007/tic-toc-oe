@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 30%;
+        display: flex;
+        
+        margin: 10% auto;
+        flex-wrap: wrap;
+        gap: 1%;
+        column-gap: normal;
+        
+    }
+    .buttons{
+        height: 100px;
+        width: 30.33%;
+    }
+    .alignment{
+        text-align: center;
+        
+        margin:10px auto;
+        
+        
+    }
+</style>
+<body>
+    <div class="mess" style="display: none; text-align: center; border: 1px solid green; padding: 20px;"></div>
+<div class="box">
+   
+    <button type="button" class="buttons"></button>
+    <button type="button" class="buttons"></button>
+    <button type="button" class="buttons"></button>
+    <button type="button" class="buttons"></button>
+    <button type="button" class="buttons"></button>
+    <button type="button" class="buttons"></button>
+    <button type="button" class="buttons"></button>
+    <button type="button" class="buttons"></button>
+    <button type="button" class="buttons"></button>
+   <div class="alignment">
+<button type="button" onclick="resetGame()">Reset Game</button>
+<button type="button" onclick="newGame()">New Game</button>
+</div>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
